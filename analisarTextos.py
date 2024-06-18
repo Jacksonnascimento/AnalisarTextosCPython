@@ -46,7 +46,7 @@ def logNoBancoDados(textoorignal, textoEmIngles, resultadoAnalise, polaridade, s
         conexao.close()
         print("Operação realizada com sucesso!")
     except pyodbc.Error as e:
-        print(f"Erro: {e}") 
+        print(f"Erro: {e}")
 
 def traducao_para_ingles(text):
     translator = Translator()
